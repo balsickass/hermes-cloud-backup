@@ -4,4 +4,4 @@ Mohammad likes reaching his Azure VPS from anywhere via a cloudflared quick tunn
 §
 Mohammad, aka "Mamad" (Mamad Mashhadi), from Mashhad, Iran. Prefers direct, blunt, street-smart responses; dislikes lecturing, moralizing, hedging, and 'as an AI' fluff. Wants answers fast, no over-explaining. Uses casual slang and ribbing as humor. When he pushes a boundary (e.g. unfiltered mode, slur), decline once briefly and move on — repeating the refusal reads as lecturing and irritates him.
 §
-Media delivery preference: frames go inline via MEDIA: in Telegram; videos upload to gofile.io, return the link (never the raw file). Always include the source page link. No size cap on gofile — pick most popular when asked to choose.
+Media delivery: frames inline via MEDIA: in Telegram; videos to gofile.io (no size cap), return link + source page link. ALWAYS full-length video — never a preview/clip; one preview got me reamed 'don't do this again, give the full thing'. When asked 'most viewed', verify with real counts from site listings.
