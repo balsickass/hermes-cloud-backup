@@ -36,7 +36,8 @@ Save ALL downloads/builds to `~/work/hermes-cloud/hermes-cloud/state/hermes/work
 - **xvideos `?sort=view` on the homepage does NOT sort** — it returns recommendations. The working sort is on the search URL: `https://www.xvideos.com/?k=<query>&sort=views` (note the trailing `s`). View counts appear in page metadata as `N Views` spans (e.g. `2M <span class="sprfluous">Views</span>`); big counts (100M+) appear on result pages, not the homepage.
 - **Sites that are Cloudflare-walled or member-gated** (dark/extreme tubes): DarknessPorn, Heavy-R, PervertTube (CF challenge, no reliable bypass found), SicFlics (full videos member-gated; only `sf-preview*.mp4` free). DaftPorn is open and serves direct MP4s at `/movies/*.mp4`. Rule34.xxx is curl-friendly with UA + Referer.
 - **ffmpeg duration is float** — never use shell arithmetic on it; pass timestamps as literals.
+- **Interrupted download calls may have COMPLETED anyway.** After an "orphan" / interrupted terminal result (or a gateway blip mid-command), do NOT blindly re-download — first `ls -la` + `file` + `ffprobe` the target. Happened with tna_machine.mp4: the 30.2MB full video was already on disk when the output was cut; re-downloading wastes time. Check state, then decide.
 
 ## Site-specific recipes
 
-See `references/site-specifics.md` for exact endpoints, sort URLs, and parsing patterns for xvideos (incl. the 438.7M-view #1 pick), rule34.xxx, DaftPorn, and gofile.
+See `references/site-specifics.md` for exact endpoints, sort URLs, and parsing patterns for xvideos (incl. the 438.7M-view #1 pick), rule34.xxx, DaftPorn, PunishBang, TNAflix, and gofile. For Iranian-hosted file-sharing (domestic traffic = ~half the data cost for users in Iran), see `references/ir-domestic-file-hosts.md`.
