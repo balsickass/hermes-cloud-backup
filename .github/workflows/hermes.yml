@@ -1,0 +1,62 @@
+name: hermes-cloud
+on:
+  schedule:
+    - cron: "0 */5 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: hermes-cloud
+  cancel-in-progress: true
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: hermes-pip-3.12-v1
+
+      - name: Restore profile state
+        run: |
+          mkdir -p state
+          if git ls-remote --exit-code --heads origin state >/dev/null 2>&1; then
+            git fetch origin state --depth 1
+            git checkout origin/state -- state/ 2>/dev/null || true
+            echo "state restored"
+          else
+            echo "no state branch — first boot"
+          fi
+
+      - name: Install Hermes Agent
+        run: |
+          curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Start state pusher (background)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          nohup python3 push_state.py > push_state.log 2>&1 &
+          echo "pusher started"
+
+      - name: Run Hermes Gateway (4h45m window)
+        env:
+          RUN_MINUTES: "285"
+          HERMES_HOME: ${{ github.workspace }}/state/hermes
+          ROUTER_API_KEY: ${{ secrets.ROUTER_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TELEGRAM_ALLOWED_USERS: ${{ secrets.TELEGRAM_ALLOWED_USERS }}
+        run: |
+          chmod +x run_hermes.sh bootstrap_profile.sh
+          ./run_hermes.sh
