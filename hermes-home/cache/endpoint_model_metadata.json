@@ -1,6 +1,6 @@
 {
 "https://9router-production-0a47.up.railway.app/v1":{
-"at":1788386996.3466232,
+"at":1788387303.3900347,
 "models":{
 "DS1":{
 "name":"DS1"
@@ -145,6 +145,12 @@
 },
 "gemini-3.7-flash":{
 "name":"gemini/gemini-3.7-flash"
+},
+"gemini/gemini-3.8-flash":{
+"name":"gemini/gemini-3.8-flash"
+},
+"gemini-3.8-flash":{
+"name":"gemini/gemini-3.8-flash"
 },
 "qw/qwen3.8-max-0902":{
 "name":"qw/qwen3.8-max-0902"
