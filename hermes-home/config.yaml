@@ -14,7 +14,7 @@ memory:
 display:
   platforms:
     telegram:
-      show_reasoning: false
+      show_reasoning: true
       tool_progress: all
       tool_preview_length: 130
 telegram:
