@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1788378068.4623067,
+"ts":1788379268.7888372,
 "caps":{
 "google/gemini-3.8-flash":{
 "supports_reasoning":true,
@@ -21,6 +21,17 @@
 "mandatory":true
 },
 "meta/muse-spark-1.3-contributor":{
+"supports_reasoning":true,
+"supported_efforts":[
+"xhigh",
+"high",
+"medium",
+"low",
+"minimal"
+],
+"mandatory":true
+},
+"meta/muse-spark-1.3":{
 "supports_reasoning":true,
 "supported_efforts":[
 "xhigh",
