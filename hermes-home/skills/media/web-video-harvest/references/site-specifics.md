@@ -38,6 +38,18 @@ curl -sL -A "$UA" -e "https://rule34.xxx/" -o out.mp4 "<direct-url>"
 ```
 Listing page `page=post&s=list&tags=...` gives IDs; check size first with `curl -sIL | grep -i content-length` before downloading (skip >~50MB for Telegram direct, gofile has no cap).
 
+## TNAflix.com (open — BDSM/fisting/rough categories, JS-injected player)
+
+Category URLs like `/fisting-sex` **404** — don't bother. Use the site search instead: browser → type tag/category into the search box (e.g. "fisting") → Enter → grab first `video<id>` hrefs. Search worked; categories didn't.
+
+The watch page has `id="video-player"` but the MP4 `src` is **JS-injected** — plain curl of the page HTML does NOT contain the direct URL.
+
+**Extract MP4 via browser console (works):**
+```js
+(() => { const v = document.getElementById('video-player'); if (!v) return 'no player'; return JSON.stringify({src: v.currentSrc || v.src, sources: Array.from(v.querySelectorAll('source')).map(s => s.src)}); })()
+```
+Then download the returned MP4 with UA + Referer `https://www.tnaflix.com/`. Verified 2026: "Bound a & fucked by a machine" (video4763477) full 8:39 = 30.2MB; "Dusia Brutal Fisting Inessas Ass" (video8048261) 6:12.
+
 ## PunishBang.com (BDSM/punishment, darker — full videos DOWNLOADABLE)
 
 Videos list: `https://www.punishbang.com/videos/` → full URLs `https://www.punishbang.com/video/<id>/<slug>/`.
