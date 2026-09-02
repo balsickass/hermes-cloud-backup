@@ -1,6 +1,6 @@
 {
 "https://9router-production-0a47.up.railway.app/v1":{
-"at":1788386692.4538484,
+"at":1788386996.3466232,
 "models":{
 "DS1":{
 "name":"DS1"
@@ -931,6 +931,12 @@
 },
 "poolside/laguna-xs-2.1:free":{
 "name":"openrouter/poolside/laguna-xs-2.1:free"
+},
+"Gmi/google/gemini-3.8-flash":{
+"name":"Gmi/google/gemini-3.8-flash"
+},
+"google/gemini-3.8-flash":{
+"name":"Gmi/google/gemini-3.8-flash"
 },
 "Gmi/zai-org/GLM-5.3-Flash":{
 "name":"Gmi/zai-org/GLM-5.3-Flash"
