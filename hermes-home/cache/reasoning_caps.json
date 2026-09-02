@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1788375803.6085694,
+"ts":1788376868.1943617,
 "caps":{
 "google/gemini-3.8-flash":{
 "supports_reasoning":true,
