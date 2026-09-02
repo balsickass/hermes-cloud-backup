@@ -52,7 +52,24 @@ Download the tokenless full URL with UA + Referer: worked, 145MB / 10:08. The pr
 
 Homepage `/` → 23+ links on `extreme-videos/`; watch page has a plain `<source src="https://www.daftporn.com/movies/<file>.mp4">`. Direct download, no token.
 
-**NO view counts anywhere.** Homepage `/`, `extreme-videos/`, `/videos/`, and watch pages expose no views/stats. `toplist.php?id=N` returns empty (`<HTML></HTML>` — pages are dead/blocked). The only ranking signal is homepage link order (front-page slot). If the user asks for "most viewed" here, say there is no such number on the site — take the top homepage slot and say it's the featured pick, not verified most-viewed.
+**VIEW COUNTS EXIST on the archive pages** (verified 2026): `https://www.daftporn.com/?p=archive&Categorie=<Cat>` renders each video as `DATE | Category | N views` (thousands-separated, no suffix, e.g. `456.140`). Categories that exist: Anal, Big cock, Caught, Compilation, Creampie, Dick, Drunk, Fucking, Handjob, Orgasm, Public, Sluts, Spying, Webcam, Weird, Wtf. Homepage `/`, `extreme-videos/`, `/videos/`, and watch pages show NO counts — that's why they looked statless at first. `toplist.php?id=N` returns empty (`<HTML></HTML>` — dead/blocked).
+
+**Site-wide most-viewed (crawled all 15 categories):** `Lunatic-films-visit-at-hot-doctor.php` — **1,571,364 views** (2018/02/01, Spying). #2: `Interrupted-at-a-bad-moment.php` 1,265,288. #3: `African-big-cock-safari.php` 1,090,219.
+
+**Crawl recipe:**
+```python
+import re, subprocess
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+cats = ["Anal","Big cock","Caught","Compilation","Creampie","Dick","Drunk","Fucking","Handjob","Orgasm","Public","Sluts","Spying","Webcam","Weird","Wtf"]
+all_items = []
+for cat in cats:
+    h = subprocess.run(["curl","-sL","-A",UA,f"https://www.daftporn.com/?p=archive&Categorie={cat}"], capture_output=True, text=True, timeout=70).stdout
+    blocks = re.findall(r'href="(https://www\.daftporn\.com/extreme-videos/[^"]+)"[^>]*>([^<]+)</a>.*?(\d{4}/\d{2}/\d{2})\s*\|\s*([^|]+)\|\s*([\d.,]+)\s*views', h, re.S)
+    for b in blocks:
+        all_items.append((float(b[4].replace(".","").replace(",","")), b[0], b[1], b[2], cat))
+all_items.sort(key=lambda x: x[0], reverse=True)
+```
+Note views use `.` as thousands separator (`456.140` = 456,140) — strip dots BEFORE converting.
 
 Page numbers: `/?p=page1..5`.
 
