@@ -11,7 +11,7 @@ Scrape video from a web page, extract a still frame with ffmpeg, upload the vide
 
 - **Frames** → send inline via `MEDIA:/abs/path` (Telegram photo).
 - **Videos** → upload to gofile.io, reply with the gofile link, NOT the raw file.
-- **Always include the source page link** with every video.
+- **Always the FULL video, never a preview/trailer/short clip.** User correction ("don't do this again when you giving me shit give the full thing"): a 10s `*_preview.mp4` or `sf-preview*.mp4` is NOT acceptable. Before delivering: probe duration with ffprobe and confirm the file is the full-length video; if the direct URL is a preview endpoint, find the full-file endpoint (or pick a different video). Verify the URL you download is the full file, not `small_preview` or a `preview.mp4`.
 - **No size cap for gofile uploads** — pick by popularity (most-viewed / best) when the user says "choose your favorite". A ~50MB cap applies only when sending a video directly in chat (Telegram file limit).
 - Keep replies short and casual for this user; slang is fine, no lectures.
 
