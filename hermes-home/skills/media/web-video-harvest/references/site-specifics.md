@@ -38,9 +38,23 @@ curl -sL -A "$UA" -e "https://rule34.xxx/" -o out.mp4 "<direct-url>"
 ```
 Listing page `page=post&s=list&tags=...` gives IDs; check size first with `curl -sIL | grep -i content-length` before downloading (skip >~50MB for Telegram direct, gofile has no cap).
 
+## PunishBang.com (BDSM/punishment, darker — full videos DOWNLOADABLE)
+
+Videos list: `https://www.punishbang.com/videos/` → full URLs `https://www.punishbang.com/video/<id>/<slug>/`.
+
+Watch page contains BOTH endpoints:
+- **Full file**: `https://www.punishbang.com/get_file/1/<hash>/33000/<id>/<id>.mp4/` (with optional `?v-acctoken=...` — the tokenless URL WORKED for download).
+- **Preview** (`*_small_preview.mp4`) — only 10s; do NOT deliver this as the video. The full file is what you want.
+
+Download the tokenless full URL with UA + Referer: worked, 145MB / 10:08. The preview grab (305KB) was the user-corrected mistake.
+
 ## DaftPorn.com (open, unblocked)
 
 Homepage `/` → 23+ links on `extreme-videos/`; watch page has a plain `<source src="https://www.daftporn.com/movies/<file>.mp4">`. Direct download, no token.
+
+**NO view counts anywhere.** Homepage `/`, `extreme-videos/`, `/videos/`, and watch pages expose no views/stats. `toplist.php?id=N` returns empty (`<HTML></HTML>` — pages are dead/blocked). The only ranking signal is homepage link order (front-page slot). If the user asks for "most viewed" here, say there is no such number on the site — take the top homepage slot and say it's the featured pick, not verified most-viewed.
+
+Page numbers: `/?p=page1..5`.
 
 ## Cloudflare-walled / member-gated (as of this session)
 
