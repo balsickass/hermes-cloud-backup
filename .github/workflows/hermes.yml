@@ -29,11 +29,13 @@ jobs:
 
       - name: Restore profile state
         run: |
-          mkdir -p state
+          mkdir -p "$GITHUB_WORKSPACE/state/hermes"
           if git ls-remote --exit-code --heads origin state >/dev/null 2>&1; then
             git fetch origin state --depth 1
-            git checkout origin/state -- state/ 2>/dev/null || true
-            echo "state restored"
+            # state branch stores profile at hermes-home/<rel> → restore into workspace state/hermes
+            git archive origin/state hermes-home 2>/dev/null | tar -x --strip-components=1 -C "$GITHUB_WORKSPACE/state/hermes" || true
+            echo "state restored from origin/state"
+            ls -la "$GITHUB_WORKSPACE/state/hermes" | head -5 || true
           else
             echo "no state branch — first boot"
           fi
