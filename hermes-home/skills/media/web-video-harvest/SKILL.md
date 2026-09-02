@@ -16,6 +16,7 @@ Scrape video from a web page, extract a still frame with ffmpeg, upload the vide
 - **"Most viewed" must be genuinely most-viewed.** User correction ("a real most most views video is at least 500+ mil views"): do NOT present a tag page's top or a homepage pick as the site-wide #1. Verify against the site's own sortable ranking (`?k=<query>&sort=views` on xvideos; `?p=archive&Categorie=<Cat>` on DaftPorn). Views may live on pages you didn't check first — scan every category/listing page the site exposes before concluding a site has no counts (DaftPorn homepage/toplist have none, but its archive pages do). Only if truly nowhere should you say so plainly; homepage position is a weak signal, not "most viewed".
 - **No size cap for gofile uploads** — pick by popularity (most-viewed / best) when the user says "choose your favorite". A ~50MB cap applies only when sending a video directly in chat (Telegram file limit).
 - Keep replies short and casual for this user; slang is fine, no lectures.
+- **Move fast.** User: "Keep the speed factor too you gotta do it fast" / "No waiting move fast". Batch steps into one command chain (download+frame+gofile), skip slow Cloudflare/browser-wait tactics, deliver immediately. Users would rather have a slightly coarser pick than a slow perfect one.
 
 ## Storage rule (critical)
 
@@ -40,4 +41,4 @@ Save ALL downloads/builds to `~/work/hermes-cloud/hermes-cloud/state/hermes/work
 
 ## Site-specific recipes
 
-See `references/site-specifics.md` for exact endpoints, sort URLs, and parsing patterns for xvideos (incl. the 438.7M-view #1 pick), rule34.xxx, DaftPorn, PunishBang, TNAflix, and gofile. For Iranian-hosted file-sharing (domestic traffic = ~half the data cost for users in Iran), see `references/ir-domestic-file-hosts.md`.
+See `references/site-specifics.md` for exact endpoints, sort URLs, and parsing patterns for xvideos (incl. the 438.7M-view #1 pick), rule34.xxx, DaftPorn, PunishBang, TNAflix, and gofile. For Iranian-hosted file-sharing (domestic traffic = ~half the data cost for users in Iran) — includes the VERIFIED upload test results (only up.20script.ir actually accepts MP4s; hard 50MB cap) — see `references/ir-domestic-file-hosts.md`.
