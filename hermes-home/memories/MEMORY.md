@@ -1,0 +1,1 @@
+User's Hermes instance runs on an Azure VPS (Microsoft infra) that the user purchases and administers.
