@@ -46,7 +46,9 @@ jobs:
       - name: Start state pusher (background)
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          HERMES_HOME: ${{ github.workspace }}/state/hermes
         run: |
+          mkdir -p "$HERMES_HOME"
           nohup python3 push_state.py > push_state.log 2>&1 &
           echo "pusher started"
 
