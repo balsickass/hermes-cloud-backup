@@ -1,7 +1,6 @@
 model:
   provider: custom:9router
   name: Flash-lite
-
 providers:
   9router:
     base_url: https://9router-production-0a47.up.railway.app/v1
@@ -9,17 +8,17 @@ providers:
     default_model: Flash-lite
     models:
       - Flash-lite
-
 memory:
   memory_enabled: true
   memory_char_limit: 20000
-
 display:
   platforms:
     telegram:
       show_reasoning: false
       tool_progress: all
       tool_preview_length: 130
-
 telegram:
   reactions: true
+onboarding:
+  seen:
+    profile_build_offered: true
