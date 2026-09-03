@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1788395127.701683,
+"ts":1788396328.140544,
 "caps":{
 "meta/muse-spark-1.3-contributor":{
 "supports_reasoning":true,
@@ -883,14 +883,6 @@
 "mandatory":false
 },
 "nvidia/nemotron-3-ultra-550b-a55b":{
-"supports_reasoning":true,
-"supported_efforts":[
-"high",
-"medium"
-],
-"mandatory":false
-},
-"nvidia/nemotron-3-ultra-550b-a55b:batch":{
 "supports_reasoning":true,
 "supported_efforts":[
 "high",
