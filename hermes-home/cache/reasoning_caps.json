@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1788801366.234243,
+"ts":1788802566.6457236,
 "caps":{
 "openai/gpt-6-astra":{
 "supports_reasoning":true,
@@ -966,11 +966,6 @@
 "supported_efforts":null,
 "mandatory":false
 },
-"minimax/minimax-m3:free":{
-"supports_reasoning":true,
-"supported_efforts":null,
-"mandatory":false
-},
 "stepfun/step-3.7-flash":{
 "supports_reasoning":true,
 "supported_efforts":[
@@ -1392,11 +1387,6 @@
 "supports_reasoning":false
 },
 "minimax/minimax-m2.7":{
-"supports_reasoning":true,
-"supported_efforts":null,
-"mandatory":true
-},
-"minimax/minimax-m2.7:free":{
 "supports_reasoning":true,
 "supported_efforts":null,
 "mandatory":true
