@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1788872975.897254,
+"ts":1788874176.2141638,
 "caps":{
 "openai/gpt-6-astra":{
 "supports_reasoning":true,
@@ -839,11 +839,6 @@
 ],
 "mandatory":false
 },
-"nex-agi/nex-n2-mini":{
-"supports_reasoning":true,
-"supported_efforts":null,
-"mandatory":false
-},
 "sakana/fugu-ultra":{
 "supports_reasoning":true,
 "supported_efforts":[
@@ -919,11 +914,6 @@
 "low"
 ],
 "mandatory":true
-},
-"nex-agi/nex-n2-pro":{
-"supports_reasoning":true,
-"supported_efforts":null,
-"mandatory":false
 },
 "nvidia/nemotron-3.5-content-safety":{
 "supports_reasoning":true,
