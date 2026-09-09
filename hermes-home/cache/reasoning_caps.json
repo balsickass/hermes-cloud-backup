@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1788982574.7450683,
+"ts":1788983775.429462,
 "caps":{
 "inception/mercury-2.5":{
 "supports_reasoning":true,
