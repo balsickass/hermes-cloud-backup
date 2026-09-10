@@ -1,7 +1,12 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789058160.8290792,
+"ts":1789059361.4597275,
 "caps":{
+"inclusionai/ling-3.0-flash-vl:free":{
+"supports_reasoning":true,
+"supported_efforts":null,
+"mandatory":false
+},
 "deepseek/deepseek-v4.1-flash":{
 "supports_reasoning":true,
 "supported_efforts":[
