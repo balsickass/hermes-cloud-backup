@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789078489.8067415,
+"ts":1789079690.3922698,
 "caps":{
 "inclusionai/ling-3.0-flash-vl:free":{
 "supports_reasoning":true,
