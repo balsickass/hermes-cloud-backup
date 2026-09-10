@@ -1,7 +1,16 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789020906.6181176,
+"ts":1789022107.0101328,
 "caps":{
+"deepseek/deepseek-v4.1-flash":{
+"supports_reasoning":true,
+"supported_efforts":[
+"max",
+"high",
+"low"
+],
+"mandatory":false
+},
 "inception/mercury-2.5":{
 "supports_reasoning":true,
 "supported_efforts":[
