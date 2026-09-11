@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789119310.304555,
+"ts":1789120510.6197748,
 "caps":{
 "sakana/fugu-ultra-v2":{
 "supports_reasoning":true,
