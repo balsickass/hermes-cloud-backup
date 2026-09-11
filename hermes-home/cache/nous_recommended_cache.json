@@ -49,7 +49,7 @@
           "displayName": "OpenAI: GPT-6 Astra",
           "source": "openrouter",
           "href": "https://openrouter.ai/openai/gpt-6-astra-20260903",
-          "tokenPrice": "in $8.00 / out $40.00 per 1M",
+          "tokenPrice": "in $10.00 / out $50.00 per 1M",
           "contextLength": 1050000,
           "inputModalities": [
             "file",
@@ -109,7 +109,7 @@
           "displayName": "OpenAI: GPT-6 Astra Pro",
           "source": "openrouter",
           "href": "https://openrouter.ai/openai/gpt-6-astra-pro-20260903",
-          "tokenPrice": "in $8.00 / out $40.00 per 1M",
+          "tokenPrice": "in $10.00 / out $50.00 per 1M",
           "contextLength": 1050000,
           "inputModalities": [
             "file",
@@ -426,6 +426,6 @@
         "updatedAt": "2026-09-08T16:50:50.729Z"
       }
     },
-    "ts": 1789160173.7771769
+    "ts": 1789161374.3120115
   }
 }
