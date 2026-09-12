@@ -1,7 +1,13 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789176105.565096,
+"ts":1789177305.8088338,
 "caps":{
+"inference-net/schematron-v2-turbo":{
+"supports_reasoning":false
+},
+"inference-net/schematron-v2-small":{
+"supports_reasoning":false
+},
 "~openai/gpt-astra-latest":{
 "supports_reasoning":true,
 "supported_efforts":[
