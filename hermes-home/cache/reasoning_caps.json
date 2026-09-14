@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789362933.486633,
+"ts":1789364133.8170419,
 "caps":{
 "inference-net/schematron-v2-turbo":{
 "supports_reasoning":false
