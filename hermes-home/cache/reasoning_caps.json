@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789420605.64525,
+"ts":1789421806.2241313,
 "caps":{
 "~deepseek/deepseek-pro-latest":{
 "supports_reasoning":true,
@@ -2474,11 +2474,6 @@
 "mistralai/mistral-medium-3":{
 "supports_reasoning":false
 },
-"google/gemini-2.5-pro-preview-05-06":{
-"supports_reasoning":true,
-"supported_efforts":null,
-"mandatory":true
-},
 "meta-llama/llama-guard-4-12b":{
 "supports_reasoning":false
 },
@@ -2776,9 +2771,6 @@
 "supports_reasoning":false
 },
 "openai/gpt-3.5-turbo-0613":{
-"supports_reasoning":false
-},
-"openai/gpt-4-turbo-preview":{
 "supports_reasoning":false
 },
 "openrouter/auto":{
