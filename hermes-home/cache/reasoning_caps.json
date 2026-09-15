@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789512998.391037,
+"ts":1789514198.8406553,
 "caps":{
 "~deepseek/deepseek-pro-latest":{
 "supports_reasoning":true,
@@ -1468,11 +1468,6 @@
 "mandatory":false
 },
 "google/gemma-4-31b-it":{
-"supports_reasoning":true,
-"supported_efforts":null,
-"mandatory":false
-},
-"google/gemma-4-31b-it:batch":{
 "supports_reasoning":true,
 "supported_efforts":null,
 "mandatory":false
