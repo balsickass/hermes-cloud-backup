@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789477021.0279725,
+"ts":1789478221.670929,
 "caps":{
 "~deepseek/deepseek-pro-latest":{
 "supports_reasoning":true,
@@ -1019,6 +1019,14 @@
 "mandatory":false
 },
 "z-ai/glm-5.2:batch":{
+"supports_reasoning":true,
+"supported_efforts":[
+"xhigh",
+"high"
+],
+"mandatory":false
+},
+"z-ai/glm-5.2:free":{
 "supports_reasoning":true,
 "supported_efforts":[
 "xhigh",
