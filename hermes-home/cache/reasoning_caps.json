@@ -1,7 +1,10 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789569495.2107038,
+"ts":1789570696.1602561,
 "caps":{
+"stealth/union-alpha":{
+"supports_reasoning":false
+},
 "~deepseek/deepseek-pro-latest":{
 "supports_reasoning":true,
 "supported_efforts":[
