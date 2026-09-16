@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789527735.8805466,
+"ts":1789528936.567026,
 "caps":{
 "~deepseek/deepseek-pro-latest":{
 "supports_reasoning":true,
