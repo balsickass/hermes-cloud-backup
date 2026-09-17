@@ -1,10 +1,7 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789672604.5012796,
+"ts":1789673804.6643646,
 "caps":{
-"~typesafe/jev-latest":{
-"supports_reasoning":false
-},
 "stealth/union-alpha":{
 "supports_reasoning":false
 },
