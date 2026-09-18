@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789710867.2969432,
+"ts":1789712067.509239,
 "caps":{
 "unbiased/pareto":{
 "supports_reasoning":false
