@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789693290.6175413,
+"ts":1789694491.0069282,
 "caps":{
 "unbiased/pareto":{
 "supports_reasoning":false
@@ -569,6 +569,15 @@
 "mandatory":false
 },
 "deepseek/deepseek-v4-flash-0731:batch":{
+"supports_reasoning":true,
+"supported_efforts":[
+"max",
+"high",
+"low"
+],
+"mandatory":false
+},
+"deepseek/deepseek-v4-flash-0731:free":{
 "supports_reasoning":true,
 "supported_efforts":[
 "max",
