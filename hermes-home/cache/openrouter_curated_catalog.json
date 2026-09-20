@@ -1,5 +1,5 @@
 {
-  "fetched_at": 1789931709.990844,
+  "fetched_at": 1789932910.352969,
   "curated": [
     [
       "anthropic/claude-fable-5.1",
@@ -123,6 +123,10 @@
     ],
     [
       "z-ai/glm-5.3-flash",
+      ""
+    ],
+    [
+      "z-ai/glm-5.3-flashx",
       ""
     ],
     [
