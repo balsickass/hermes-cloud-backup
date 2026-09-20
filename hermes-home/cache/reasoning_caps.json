@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789876952.4711888,
+"ts":1789878152.9182177,
 "caps":{
 "prism-ml/ternary-bonsai-2-27b":{
 "supports_reasoning":true,
@@ -594,15 +594,6 @@
 "mandatory":false
 },
 "deepseek/deepseek-v4-flash-0731:batch":{
-"supports_reasoning":true,
-"supported_efforts":[
-"max",
-"high",
-"low"
-],
-"mandatory":false
-},
-"deepseek/deepseek-v4-flash-0731:free":{
 "supports_reasoning":true,
 "supported_efforts":[
 "max",
