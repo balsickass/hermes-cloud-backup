@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1789905309.16332,
+"ts":1789906509.5268373,
 "caps":{
 "prism-ml/ternary-bonsai-2-27b":{
 "supports_reasoning":true,
