@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790006081.494893,
+"ts":1790007281.936801,
 "caps":{
 "prism-ml/ternary-bonsai-2-27b":{
 "supports_reasoning":true,
@@ -2482,11 +2482,6 @@
 "supports_reasoning":true,
 "supported_efforts":null,
 "mandatory":true
-},
-"anthropic/claude-opus-4":{
-"supports_reasoning":true,
-"supported_efforts":null,
-"mandatory":false
 },
 "anthropic/claude-sonnet-4":{
 "supports_reasoning":true,
