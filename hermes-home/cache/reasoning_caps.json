@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790014484.3382516,
+"ts":1790015684.8628068,
 "caps":{
 "x-ai/grok-4.7":{
 "supports_reasoning":true,
