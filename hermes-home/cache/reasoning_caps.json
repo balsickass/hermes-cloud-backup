@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790094942.873605,
+"ts":1790096143.3951042,
 "caps":{
 "anthropic/claude-opus-5.5":{
 "supports_reasoning":true,
@@ -1448,7 +1448,7 @@
 "medium",
 "low"
 ],
-"mandatory":false
+"mandatory":true
 },
 "openrouter/pareto-code":{
 "supports_reasoning":false
