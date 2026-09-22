@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790061385.3070822,
+"ts":1790062585.9382095,
 "caps":{
 "xiaomi/mimo-v2.6-pro-ultraspeed":{
 "supports_reasoning":true,
@@ -1544,9 +1544,6 @@
 "supports_reasoning":false
 },
 "google/lyria-3-clip-preview":{
-"supports_reasoning":false
-},
-"kwaipilot/kat-coder-pro-v2":{
 "supports_reasoning":false
 },
 "rekaai/reka-edge":{
