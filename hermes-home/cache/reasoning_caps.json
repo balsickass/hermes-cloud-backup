@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790115351.656954,
+"ts":1790116552.485058,
 "caps":{
 "openai/gpt-6-luna-pro":{
 "supports_reasoning":true,
