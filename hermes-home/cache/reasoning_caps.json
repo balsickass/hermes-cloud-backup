@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790048627.6331875,
+"ts":1790049828.2307427,
 "caps":{
 "xiaomi/mimo-v2.6-pro-ultraspeed":{
 "supports_reasoning":true,
