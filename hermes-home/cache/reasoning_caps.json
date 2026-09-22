@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790097343.7280664,
+"ts":1790098544.012584,
 "caps":{
 "anthropic/claude-opus-5.5":{
 "supports_reasoning":true,
