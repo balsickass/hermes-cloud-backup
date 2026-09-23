@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790203019.2129247,
+"ts":1790204219.6690423,
 "caps":{
 "z-ai/glm-5.3-prime":{
 "supports_reasoning":true,
