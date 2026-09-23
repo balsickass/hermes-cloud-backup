@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790182573.1812055,
+"ts":1790183775.3021383,
 "caps":{
 "aion-labs/aion-3.5-mini":{
 "supports_reasoning":true,
