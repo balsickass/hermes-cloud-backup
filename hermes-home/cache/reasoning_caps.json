@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790126427.7955563,
+"ts":1790127628.4904876,
 "caps":{
 "cohere/command-a-plus":{
 "supports_reasoning":true,
