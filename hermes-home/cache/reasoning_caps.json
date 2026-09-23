@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790205419.9504595,
+"ts":1790206620.218594,
 "caps":{
 "z-ai/glm-5.3-prime":{
 "supports_reasoning":true,
@@ -2491,6 +2491,15 @@
 "mandatory":true
 },
 "openai/gpt-oss-120b":{
+"supports_reasoning":true,
+"supported_efforts":[
+"high",
+"medium",
+"low"
+],
+"mandatory":true
+},
+"openai/gpt-oss-120b:batch":{
 "supports_reasoning":true,
 "supported_efforts":[
 "high",
