@@ -1,7 +1,16 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790200618.5576642,
+"ts":1790201818.8600273,
 "caps":{
+"z-ai/glm-5.3-prime":{
+"supports_reasoning":true,
+"supported_efforts":[
+"max",
+"high",
+"low"
+],
+"mandatory":true
+},
 "qwen/qwen3.8-max-prime":{
 "supports_reasoning":true,
 "supported_efforts":[
