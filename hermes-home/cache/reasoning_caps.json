@@ -1,7 +1,16 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790229329.0273168,
+"ts":1790230529.2190564,
 "caps":{
+"fireworks/ember-1":{
+"supports_reasoning":true,
+"supported_efforts":[
+"max",
+"high",
+"low"
+],
+"mandatory":false
+},
 "z-ai/glm-5.3-prime":{
 "supports_reasoning":true,
 "supported_efforts":[
