@@ -1,0 +1,9 @@
+cf12e8ee10fa4444190ea884a453af77821f49d0ad21bfe16b117242bc3cb0ab  install.sh
+2b3fbf87c28529991a0106c7d4372aec88ad793daa51ab77b45754f130738dda  tirith-0.4.2-1.el9.x86_64.rpm
+551f9a6ebf58344e7d0aa06bcc78d7a4f2f7b44b8011be563e0a91976cc9c4df  tirith-aarch64-apple-darwin.tar.gz
+c550b1bfb0c8c872ab3421cd6ef756f260f7cf4981a18cedd49f141fa2d77569  tirith-aarch64-unknown-linux-gnu.tar.gz
+9c86e81537dc7b7fe6655ea472728b5f7a0dbe93ebb68b95ca7601fb1aba0508  tirith-aarch64-unknown-linux-musl.tar.gz
+dda8a14df00a49c4b0f607c15a82259f96c94da91b09718a7ebbc34a831d6f54  tirith-x86_64-apple-darwin.tar.gz
+405aac2815ddf8e1dfd03c914e3cc91b1be21358b2a61bab09c1eae462a89a0b  tirith-x86_64-pc-windows-msvc.zip
+efa6bf414a83dba385d4f13137e8677f850ced9102fe74ebb14c72f31df0dc77  tirith-x86_64-unknown-linux-gnu.tar.gz
+a5da9ad9b29f629382422e23cb974dd7a4fb7d8b3ba2a0908311b2ae65c3c268  tirith_0.4.2_amd64.deb

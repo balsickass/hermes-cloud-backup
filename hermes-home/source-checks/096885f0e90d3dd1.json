@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "root": "/home/runner/.hermes/hermes-agent",
+    "home": "/home/runner/work/hermes-cloud-backup/hermes-cloud-backup/state/hermes",
+    "head": "ac4181fdfaa4fa3b0682ea7b592c7a3ee6465e62",
+    "origin": "https://github.com/NousResearch/hermes-agent.git",
+    "branch": "main",
+    "channel": "main",
+    "embedded": null,
+    "branchOverride": false,
+    "channelProtocol": 1
+  },
+  "ts": 1790295831.517809,
+  "status": {
+    "supported": true,
+    "hermesRoot": "/home/runner/.hermes/hermes-agent",
+    "behind": 0,
+    "commits": [],
+    "currentSha": "ac4181fdfaa4fa3b0682ea7b592c7a3ee6465e62",
+    "currentBranch": "main",
+    "dirty": false,
+    "branch": "main",
+    "fetchedAt": 1790295831517,
+    "targetSha": "ac4181fdfaa4fa3b0682ea7b592c7a3ee6465e62",
+    "updateAvailable": false
+  }
+}

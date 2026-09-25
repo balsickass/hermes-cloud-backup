@@ -1,0 +1,129 @@
+{
+  "packages": {
+    "agent-browser": {
+      "artifacts": [
+        "8a48cf4110d7dc2c12c1c4d6d25e0babdfa31604b537f05df0dc835fe2f854bf"
+      ],
+      "digest": "88441177d25edcd4ab9cc4837f06471a414e6b1cc054e76fd310cd9375267aff",
+      "entry": "agent-browser-0.26.0-linux-x64",
+      "env": {
+        "PATH": [
+          "{{store}}/agent-browser-0.26.0-linux-x64/bin"
+        ]
+      },
+      "target": "linux-x64",
+      "version": "0.26.0"
+    },
+    "chromium": {
+      "artifacts": [
+        "b5e3195041af345a668d110f5daf5581961fa3608626ea588c97dd0fe81c4e38"
+      ],
+      "digest": "8a7a20eb151ed9cefe3528209510a97da1abbf0b11f2122d0ddb69790b29101a",
+      "entry": "chromium-1208",
+      "env": {
+        "AGENT_BROWSER_EXECUTABLE_PATH": "{{store}}/chromium-1208/chrome-linux64/chrome",
+        "PLAYWRIGHT_BROWSERS_PATH": "{{store}}"
+      },
+      "target": "linux-x64",
+      "version": "1208+145.0.7632.6"
+    },
+    "ffmpeg": {
+      "artifacts": [
+        "70b162b63517038ff18c8a50f4ea11f919a071f945c5881e87b0b2cd7173f8c7"
+      ],
+      "digest": "d99bd15116e0ca89ce773b7a360d70929a24e0ddd092e3d99a58fb2ad8987748",
+      "entry": "ffmpeg-9.0.1-linux-x64",
+      "env": {
+        "PATH": [
+          "{{store}}/ffmpeg-9.0.1-linux-x64/bin"
+        ]
+      },
+      "target": "linux-x64",
+      "version": "9.0.1"
+    },
+    "node": {
+      "artifacts": [
+        "982aa24dd8be4c889c6a8ab337ddff3b0896645b20f4239356e80552c16277ee"
+      ],
+      "digest": "5189ac38a3d68fc46851f6a5abac2f20df4ed6c81dc36eaa808545508212e15c",
+      "entry": "node-26.7.0-linux-x64",
+      "env": {
+        "PATH": [
+          "{{store}}/node-26.7.0-linux-x64/bin"
+        ]
+      },
+      "target": "linux-x64",
+      "version": "26.7.0"
+    },
+    "npm": {
+      "artifacts": [
+        "5dbb86c71d07a1957f2e90734092dd6a58bdcd9ebc2d8d41ca1c6e6a21d364e1"
+      ],
+      "digest": "dd88d650b23a2decfae71bf8070f0201e428a2af17e14465fc4b56d0b32f115d",
+      "entry": "npm-12.0.2-linux-x64",
+      "env": {
+        "PATH": [
+          "{{store}}/npm-12.0.2-linux-x64/bin"
+        ]
+      },
+      "target": "linux-x64",
+      "version": "12.0.2"
+    },
+    "python": {
+      "artifacts": [
+        "0ab3305457051cd3e7c031857e005f1bda17c218a1990567dacaaac6dd1d14f0"
+      ],
+      "digest": "c344cc17073eb174e6abbc0f749941375477d1b85ab61db08d27559f303bc7e9",
+      "entry": "python-3.14.7+20260901-linux-x64",
+      "env": {
+        "PATH": [
+          "{{store}}/python-3.14.7+20260901-linux-x64/bin"
+        ]
+      },
+      "target": "linux-x64",
+      "version": "3.14.7+20260901"
+    },
+    "ripgrep": {
+      "artifacts": [
+        "33e15bcf1624b25cdd2a55813a47a2f95dbe126268203e76aa6a585d1e7b149c"
+      ],
+      "digest": "bef91d9f17b2676dca9549e2f851920ca86c13799ad1d8b5157a05b66001b4ce",
+      "entry": "ripgrep-15.2.0-linux-x64",
+      "env": {
+        "PATH": [
+          "{{store}}/ripgrep-15.2.0-linux-x64"
+        ]
+      },
+      "target": "linux-x64",
+      "version": "15.2.0"
+    },
+    "tirith": {
+      "artifacts": [
+        "efa6bf414a83dba385d4f13137e8677f850ced9102fe74ebb14c72f31df0dc77",
+        "bcbb3eeda0f9971db5d60d2eb512970c14601432092f596d7059e0141e272585",
+        "8d069fa95606f59919a897ff0914b06600f3cede4a8e83a0c4b339d9188c42b0",
+        "1f39241c7a334e465f78794533675e94e424ed38e9aa1534b5d7c893bd4fb71c"
+      ],
+      "digest": "27f0e1e8ae86aaecf92677929692f374ea50141ded5e9c6b477d7817472ea6bc",
+      "entry": "tirith-0.4.2-linux-x64",
+      "env": {
+        "PATH": [
+          "{{store}}/tirith-0.4.2-linux-x64"
+        ]
+      },
+      "target": "linux-x64",
+      "version": "0.4.2"
+    },
+    "uv": {
+      "artifacts": [
+        "600cf9a742aca00d292673b16b5acffaa7b8c269a364ad0c2e79498dcb1fe101"
+      ],
+      "digest": "51379662848fdd97c6776ea74ff4d305ba4e3a241f72b8c69741ec7e7d107683",
+      "entry": "uv-0.12.3-linux-x64",
+      "env": {},
+      "target": "linux-x64",
+      "version": "0.12.3"
+    }
+  },
+  "schema": 1
+}

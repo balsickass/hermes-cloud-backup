@@ -1,6 +1,6 @@
 model:
   provider: custom:9router
-  name: Flash-lite
+  default: Flash-lite
 providers:
   9router:
     base_url: https://9router-production-0a47.up.railway.app/v1
@@ -23,3 +23,4 @@ onboarding:
   seen:
     profile_build_offered: true
     busy_input_prompt: true
+_config_version: 46

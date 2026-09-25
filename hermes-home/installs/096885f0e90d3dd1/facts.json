@@ -1,0 +1,13 @@
+{
+  "packages": {
+    "venv": {
+      "environment": "/home/runner/work/hermes-cloud-backup/hermes-cloud-backup/state/hermes/installs/096885f0e90d3dd1/environments/60003e116b214beca96a8b3df1bcf5b5/venv",
+      "extras": [
+        "all"
+      ],
+      "resolved_lock": "/home/runner/work/hermes-cloud-backup/hermes-cloud-backup/state/hermes/installs/096885f0e90d3dd1/environments/60003e116b214beca96a8b3df1bcf5b5/workspace/uv.lock",
+      "stamp": "297f749dac9e1381525fea2a45a89ed632f2197f5e7abcf7ba918add4f8c0f82"
+    }
+  },
+  "schema": 1
+}
